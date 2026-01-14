@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="PWA personalizado com contador regressivo para aniversários, bodas, lançamentos e eventos especiais. Instalável, offline e emocional." />
+  <meta property="og:title" content="PWA Contagem Regressiva Personalizado" />
+  <meta property="og:description" content="Transforme datas especiais em experiências digitais memoráveis." />
+  <meta property="og:image" content="./demo.gif" />
+  <meta property="og:url" content="https://luisaguiartech.github.io/pwa-contagem-demo/" />
+  <meta name="theme-color" content="#2575fc" />
+
   <title>PWA Contagem Regressiva</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="manifest" href="manifest.json">
+
+  <!-- Ícones -->
+  <link rel="icon" sizes="192x192" href="assets/icons/icon-192.png" />
+  <link rel="apple-touch-icon" sizes="512x512" href="assets/icons/icon-512.png" />
+
+  <!-- Manifesto PWA -->
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
     <h1 id="titulo">Evento Especial</h1>
-    <p id="mensagem">Em breve você poderá personalizar sua contagem!</p>
-    <div id="countdown">00 dias, 00 horas, 00 minutos, 00 segundos</div>
+    <p class="mensagem">Em breve você poderá personalizar sua contagem!</p>
+    <div id="countdown" aria-live="polite">88 dias, 00 horas, 00 minutos, 00 segundos</div>
     <button id="contratar-btn">Contratar Este Modelo</button>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>

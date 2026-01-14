@@ -1,23 +1,26 @@
 # PWA de Contagem Regressiva Personalizado
 
-✨ Transforme datas especiais em experiências digitais memoráveis!
-
-## Demonstração
+Transforme datas especiais em experiências digitais memoráveis.  
+Instalável, offline e emocional — feito sob medida para aniversários, bodas, lançamentos e metas pessoais.
 
 ![Demo GIF](./demo.gif)
 
-## Características
+## 🌟 Características
+- ✅ **PWA Instalável** (funciona como app no celular)  
+- ✅ **Offline First** (acessível mesmo sem internet)  
+- ✅ **Design Responsivo** (perfeito para mobile e desktop)  
+- ✅ **Personalização Visual** (cores, frases, ícones e imagens)  
+- ✅ **Compartilhamento Social** (via link ou QR Code)
 
-- 📱 PWA Instalável
-- 🌐 Offline First
-- 🎨 Design Personalizável
-- 🎵 Som e Animações
-- 📤 Compartilhamento Social
+## 💡 Este é um modelo de demonstração
+Este repositório mostra **como seu PWA pode ser**, mas **não é o produto final**.  
+O código completo e personalizado é entregue **exclusivamente após contratação**.
 
-## Contrate
+## 📩 Quero o meu!
+Entre em contato para receber seu PWA exclusivo com:
+- Data e hora exatas do seu evento  
+- Nome e mensagem personalizada  
+- Cores e estilo alinhados ao seu propósito  
 
-Entre em contato para receber seu modelo personalizado: [luis.contato@email.com]
-
----
-
-> Este repositório é uma demonstração. O código final é entregue exclusivamente para o cliente após a personalização.
+📧 **E-mail**: [luisaguiartech@gmail.com](mailto:luisaguiartech@gmail.com)  
+🔗 **Veja ao vivo**: [https://luisaguiartech.github.io/pwa-contagem-demo/](https://luisaguiartech.github.io/pwa-contagem-demo/)
