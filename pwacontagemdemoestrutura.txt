@@ -1,0 +1,14 @@
+pwa-contagem-demo/
+│
+├── index.html
+├── style.css
+├── script.js
+├── manifest.json
+├── sw.js
+├── assets/
+│   ├── images/
+│   │   └── demo-bg.jpg
+│   └── icons/
+│       └── icon.png
+├── demo.gif
+└── README.md
