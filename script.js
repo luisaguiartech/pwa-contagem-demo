@@ -1,11 +1,6 @@
-// Ação do botão: abre e-mail com assunto pré-preenchido
+// Redireciona para seu portfólio
 document.getElementById("contratar-btn").addEventListener("click", () => {
-  const email = "luisaguiartech@gmail.com";
-  const subject = encodeURIComponent("Quero meu PWA personalizado");
-  const body = encodeURIComponent(
-    "Olá! Vi sua demonstração e gostaria de encomendar um PWA com contador regressivo para meu evento."
-  );
-  window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+  window.location.href = "https://luisaguiartech.github.io/luisaguiar/";
 });
 
 // Contador fixo para demonstração (não personalizável)
@@ -29,7 +24,6 @@ function updateCountdown() {
     `${days} dias, ${hours} horas, ${minutes} minutos, ${seconds} segundos`;
 }
 
-// Atualiza a cada segundo
 setInterval(updateCountdown, 1000);
 
 // Registra Service Worker
